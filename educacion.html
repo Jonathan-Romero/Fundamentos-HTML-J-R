@@ -5,18 +5,77 @@
 </head>
 <body>
   <svg>
-  <img src="imagenes/dibujo.svg" width="200px" heigth="50px"></img>
+  <img src="imagenes/dibujo.svg" width="200px" heigth="50px"style="padding-top:10px;"</img>
   </svg>
 	<h1><strong>"Curriculum Vitae"</strong></h1>
   <h2>Jonathan Romero</h2>
-  <img src="imagenes/Exito.jpg" alt="50">
+  <img src="imagenes/Exito.jpg" alt="" width="300" height="300">
   <h3>Fecha de Nacimiento 17/03/1977</h3>
   <h4>Lugar de nacimiento Mexico</h4>
-<navbar>
-	<a href="html/index.html">Pagina Inicio</a>
-	<a href="html/experiencia">Pagina Experiancia</a>
-</navbar>
+  <navbar>
+  	<a href="index.html">Pagina Principal</a>
+  	<a href="experiencia.html">Pagina Experiancia</a>
+  </navbar>
+  <h2><strong>Educación</strong><h2/>
+    <table border="1" cellpadding="10" cellspacing="0">
+	  <thead>
+	  <tr>
+	  <th>Año</th>
+	  <th>Institución</th>
+	  <th>Lugar</th>
+	  <th>¿Culminó?</th>
+	  </tr>
+
+    <tr>
+    <td>2000</td>
+    <td>Universidad La Salle</td>
+    <td>Ciudad de Mexico</td>
+    <td>Si</td>
+    <tr>
+    <td>1999</td>
+    <td>Aspel</td>
+    <td>Ciudad de Mexico</td>
+    <td>Si</td>
+    <tr>
+    <td>2001</td>
+    <td>Redes</td>
+    <td>Ciudad de Mexico</td>
+    <td>Si</td>
+    </tr>
+	  </thead>
+    </table>
+       <h1>Formulario</h1>
+       <form action="">
+       <p>
+         <label for="Año">Intoduce el año</label>
+			<br>
+			<input type="date" name="Año" placeholder="1999,2000,2001">
+
+      <p>
+			<label for="institucion">Institución</label>
+			<br>
+			<input type="text" name="institucion" placeholder="Ej: Universidad" required="required">
+		  </p>
+
+      </p>
+      <p>
+			<label for="comment">Lugar: </label>
+			<br>
+			<textarea name="comment" id="" cols="20" rows="3"></textarea>
+		  </p>
+
+      <p>
+			<label for="valid">Termino </label>
+			<br>
+			<input type="radio" name="valid"> Si
+			<br>
+			<input type="radio" name="valid"> No
+		</p>
+    <p>
+			<input type="submit" value="Registrar">
+		</p>
 </body>
+
 <footer>
   	Correo: lic.jonathan.romer@gmail.com, Telefono 551358484, facebook Jonathan
 </footer>
